@@ -81,7 +81,7 @@ while num_questions != sum(value is None for value in queries.values()):
                 while queries[random_queries_element] is None:
                     random_queries_element = random.choice(list(queries))
                 else:
-                    print("random key: " + random_queries_element)
+                    # print("random key: " + random_queries_element)
                     if len(queries[random_queries_element]) == 3:
                         # print("length: " + str(len(queries[random_queries_element])))
                         # print(queries[random_queries_element][2])
